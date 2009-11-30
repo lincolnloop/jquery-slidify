@@ -7,78 +7,74 @@
 
 	<title>lincolnloop/jquery-slidify @ GitHub</title>
 	
-	<style type="text/css">
-		body {
-  		margin-top: 1.0em;
-  		background-color: #82b93d;
-		  font-family: "Helvetica,Arial,FreeSans"; 
-  		color: #ffffff;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-		h1 { font-size: 3.8em; color: #7d46c2; margin-bottom: 3px; }
-		h1 .small { font-size: 0.4em; }
-		h1 a { text-decoration: none }
-		h2 { font-size: 1.5em; color: #7d46c2; }
-    h3 { text-align: center; color: #7d46c2; }
-    a { color: #7d46c2; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-		pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-	</style>
+    <link rel="stylesheet" href="http://lincolnloop.com/static/blueprint/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="http://lincolnloop.com/static/css/style.css?20090312" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="http://lincolnloop.com/static/css/intranet.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="http://lincolnloop.com/static/blueprint/print.css" type="text/css" media="print" />
+    <!--[if IE]>
+        <link rel="stylesheet" href="http://lincolnloop.com/static/css/ie.css" type="text/css" media="screen, projection" />
+    <![endif]-->
+    <style type="text/css" media="screen">
+        .container { width:650px; }
+        .download { float:right; width:200px; }
+        .description { margin-top:20px; }
+    </style>
 	
 </head>
 
 <body>
   <a href="http://github.com/lincolnloop/jquery-slidify"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-  
-  <div id="container">
+  <div id="intranet-nav">
+          <div class="container"></div>
+      </div>
+      <div id="subnav">
+          <div class="container">
+              <h2>jQuery Slidify</h2>
+          </div>
+      </div>
+        <div class="container">
 
-    <div class="download">
-      <a href="http://github.com/lincolnloop/jquery-slidify/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/lincolnloop/jquery-slidify/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
+            <div class="download">
+              <a href="http://github.com/lincolnloop/jquery-slidify/zipball/master">
+                <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
+              <a href="http://github.com/lincolnloop/jquery-slidify/tarball/master">
+                <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+            </div>
       
-    <h1><a href="http://github.com/lincolnloop/jquery-slidify">jquery-slidify</a> 
-      <span class="small">by <a href="http://github.com/lincolnloop">lincolnloop</a></span></h1>
-
-    <div class="description">
-      A graphical range selector for jQuery
-    </div>
-
-    <h2>Dependencies</h2>
-<p>jQuery v1.3+ and jQuery UI v1.7+</p>
-<h2>License</h2>
-<p>Dual licensed under the MIT and GPL licenses:
- *   http://www.opensource.org/licenses/mit-license.php
- *   http://www.gnu.org/licenses/gpl.html
-</p>
-<h2>Authors</h2>
-<p>Peter Baumgartner (pete@lincolnloop.com)<br/><br/>      </p>
-<h2>Contact</h2>
-<p>Peter Baumgartner (pete@lincolnloop.com)<br/>      </p>
-
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/lincolnloop/jquery-slidify/zipball/master">zip</a> or
-      <a href="http://github.com/lincolnloop/jquery-slidify/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/lincolnloop/jquery-slidify</pre>
-    </p>
+            <div class="description">
+              <p>A graphical range selector for jQuery for use in forms where it is necessary to capture a low and high value range. Degrades gracefully to 2 text inputs.</p>
       
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/lincolnloop/jquery-slidify">lincolnloop/jquery-slidify</a>
-    </div>
+              <p><strong><a href="./demo.html">View Demo</a></strong></p>
+            </div>
+
+            <h2>Dependencies</h2>
+            <p>jQuery v1.3+ and jQuery UI v1.7+</p>
+            <h2>License</h2>
+            <p>Dual licensed under the MIT and GPL licenses:</p>
+            <ul>
+                <li>http://www.opensource.org/licenses/mit-license.php</li>
+                <li>http://www.gnu.org/licenses/gpl.html</li>
+            </ul>
+            
+            <h2>Issues?</h2>
+            <p><a href="http://github.com/lincolnloop/jquery-slidify/issues">GitHub Issue Tracker</a></p>
+
+
+            <h2>Download</h2>
+            <p>
+              You can download this project in either
+              <a href="http://github.com/lincolnloop/jquery-slidify/zipball/master">zip</a> or
+              <a href="http://github.com/lincolnloop/jquery-slidify/tarball/master">tar</a> formats.
+            </p>
+            <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+              by running:
+              <pre>$ git clone git://github.com/lincolnloop/jquery-slidify</pre>
+            </p>
+
+
+            <div class="footer">
+              get the source code on GitHub : <a href="http://github.com/lincolnloop/jquery-slidify">lincolnloop/jquery-slidify</a>
+            </div>
     
   </div>
 
