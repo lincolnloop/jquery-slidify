@@ -4,7 +4,7 @@
  *
  * Copyright (c) 2009 Lincoln Loop, LLC
  * 
- * Version: 1.2.6 (16/11/2009)
+ * Version: 0.7 (11/30/2009)
  * Requires: jQuery v1.3+ and jQuery UI v1.7+
  * 
  * Dual licensed under the MIT and GPL licenses:
